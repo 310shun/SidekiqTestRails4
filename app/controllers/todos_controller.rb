@@ -6,7 +6,7 @@ class TodosController < ApplicationController
   def index
     @todos = Todo.all
     puts 'takos'
-    puts "EEEEEEEEEEEEEEEEEE"
+    puts "SGEEEEEEEEEEEEEEEEEE"
     MyWorker.perform_async
   end
 
